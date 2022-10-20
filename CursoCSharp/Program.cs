@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CursoCSharp.Fundamentos;
+using System;
 
 // See https://aka.ms/new-console-template for more information
 
@@ -8,7 +9,12 @@ namespace CursoCSharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            var central = new CentralDeExercicios(new Dictionary<string, Action>() 
+            {
+                {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
+            });
+
+            central.SelecionarEExecutar();
         }
     }
 }
