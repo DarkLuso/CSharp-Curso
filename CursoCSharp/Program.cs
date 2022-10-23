@@ -11,6 +11,7 @@ namespace CursoCSharp
         {
             var central = new CentralDeExercicios(new Dictionary<string, Action>() 
             {
+                //Fundamentos
                 {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
                 {"Comentarios - Fundamentos", Comentarios.Executar},
                 {"Váriaveis e Constantes - Fundamentos", VariaveisEConstantes.Executar},
@@ -22,6 +23,8 @@ namespace CursoCSharp
                 {"Conversões - Fundamentos", Conversoes.Executar},
                 {"Operadores Unarios - Fundamentos", OperadoresUnarios.Executar},
                 {"Operador Ternario - Fundamentos", OperadorTernario.Executar},
+
+
             });
 
             central.SelecionarEExecutar();
