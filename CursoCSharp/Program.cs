@@ -23,6 +23,7 @@ namespace CursoCSharp
                 {"Conversões - Fundamentos", Conversoes.Executar},
                 {"Operadores Unarios - Fundamentos", OperadoresUnarios.Executar},
                 {"Operador Ternario - Fundamentos", OperadorTernario.Executar},
+                {"Teste Lambda - Fundamentos", TesteLambda.Executar},
 
 
             });
